@@ -32,7 +32,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-sm-6 m-b-20">
-                                    <img src="{{ URL::to('assets/img/logo2.png') }}" class="inv-logo" alt="">
+                                    <img src="{{ URL::to('assets/img/logo2.svg') }}" class="inv-logo" alt="">
                                     <ul class="list-unstyled">
                                         <li>{{$estimatesJoin[0]->client }}</li>
                                         <li>{{$estimatesJoin[0]->client_address }}</li>
